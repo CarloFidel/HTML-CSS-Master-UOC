@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--fond-color);
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#div-author {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.sin_viñetas {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 5px;
+}
+#fecha {
+  margin-top: -10px;
+}
+
+.current_page {
+  color: var(--selection-color);
+}
+.anchor_red {
+  color: var(--red-color);
+}
+h3 {
+  text-align: center;
+}
+
+.piefoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: 10px 0px 0px 0px;
+}
+hr {
+  border: none;
+  border-top: 2px solid rgb(136, 136, 136);
+  width: 40vw;
+}
+#div-cita {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: auto;
+}
+#div-author-cita {
+  display: flex;
+  justify-content: right;
+}
+.marcador_yellow {
+  background-color: yellow;
+}
+.img_author {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--title-color);
+  width: 100%;
+  color: white;
+}
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer div p {
+  color: white;
+}

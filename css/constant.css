@@ -1,0 +1,29 @@
+:root {
+  --text-color: #231203;
+  --fond-color: #f2f2f2;
+  --selection-color: #e48e88;
+  --red-color: #da3a35;
+  --title-color: #2e1e0c;
+}
+html {
+  font-size: 16px; 
+}
+h1,
+h2,
+h3,
+p,
+a {
+  color: var(--text-color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 10px 0px 10px 0px;
+  text-decoration: none;
+}
+main{
+      border: 1px solid red;
+}
+section{
+        border: 1px solid blue;
+}
+div{
+      border: 1px solid brown;
+}
