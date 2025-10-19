@@ -15,9 +15,11 @@ p,
 a {
   color: var(--text-color);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 10px 0px 10px 0px;
+/*   margin: 10px 0px 10px 0px; */
   text-decoration: none;
 }
+
+
 main{
       border: 1px solid red;
 }
