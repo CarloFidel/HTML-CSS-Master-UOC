@@ -5,9 +5,20 @@
   --red-color: #da3a35;
   --title-color: #2e1e0c;
 }
+
 html {
-  font-size: 16px; 
+  font-size: 16px;
 }
+
+body {
+  background-color: var(--fond-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 1.6;
+}
+
 h1,
 h2,
 h3,
@@ -15,17 +26,18 @@ p,
 a {
   color: var(--text-color);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-/*   margin: 10px 0px 10px 0px; */
+  /*   margin: 10px 0px 10px 0px; */
   text-decoration: none;
 }
 
+ main {
+  border: 1px solid red;
+}
 
-main{
-      border: 1px solid red;
+section {
+  border: 1px solid blue;
 }
-section{
-        border: 1px solid blue;
-}
-div{
-      border: 1px solid brown;
-}
+
+div {
+  border: 1px solid green;
+} 
