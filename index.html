@@ -13,28 +13,28 @@
 </head>
 
 <body>
-  <header id="header-global">
+  <header class="header-global">
     <nav aria-label="Navegación principal">
-      <img src="./img/bit-logo.svg" alt="inicio-logo" id="bit-logo" />
+      <img src="./img/bit-logo.svg" alt="inicio-logo" id="bit-logo" class="image--logo" />
       <ul class="sin_viñetas">
         <li>
-          <a class="current_page no_decoration" href="./index.html"><strong>ARTÍCULO</strong></a>
+          <a class="current_page no_decoration" href="./index.html" title="Ir a Artículo"><strong>ARTÍCULO</strong></a>
         </li>
         <li>
-          <a class="no_decoration" href="./recursos.html"><strong>RECURSOS</strong></a>
+          <a class="no_decoration" href="./recursos.html" title="Ir a Recursos"><strong>RECURSOS</strong></a>
         </li>
         <li>
-          <a class="no_decoration" href="./glosario.html"><strong>GLOSARIO</strong></a>
+          <a class="no_decoration" href="./glosario.html" title="Ir a Glosario"><strong>GLOSARIO</strong></a>
         </li>
       </ul>
     </nav>
   </header>
   <main>
-    <header id="header-articulo">
+    <header class="header-articulo">
       <h1>Un mundo sin nostalgia</h1>
       <div id="div-author">
         <p class="anchor_red">
-          <strong><a class="anchor_red" href="">JOSÉ HEITZ</a></strong>
+          <strong><a class="anchor_red" title="Más sobre José Heitz" href="">JOSÉ HEITZ</a></strong>
         </p>
         <p id="fecha">
           <small> <strong>11 de marzo de 2025</strong></small>
@@ -48,21 +48,23 @@
           recicla a través de nuevas formas?
         </p>
       </div>
-
-      <img src="./img/nostalgia.jpg" alt="img-nostalgia" id="img-nostalgia" />
+      <div class="img-container">
+        <img src="./img/nostalgia.jpg" alt="img-nostalgia" class="img-nostalgia" />
+      </div>
       <div class="piefoto">
         <small>
           Campaña de limpieza en a La Haya, 1961 |
-          <a class="anchor_red"
+          <a class="anchor_red" title="ir a National Archief"
             href="https://www.nationaalarchief.nl/onderzoeken/fotocollectie/a9e473b4-d0b4-102d-bcf8-003048976d84">
-            Nationaal Archief <img src="./img/external-link.svg" alt="" />
+            Nationaal Archief <img src="./img/external-link.svg" alt="icono-external-link" />
           </a>
           | Dominio público
         </small>
       </div>
+
     </section>
     <section id="section-desarrollo">
-      <div class="div-subtitle">
+      <div class="div-subtitle" id="div-subtitle">
         <p>
           La industria del entretenimiento ha acabado con los finales. Sus
           estrategias para vender más fomentan un reciclaje de contenidos que
@@ -108,7 +110,19 @@
         parece haber optado por un objetivo más ambicioso: evitar directamente
         la desaparición de las cosas para que la rueda nunca se detenga.
       </p>
-      <p class="marcador_yellow">aqui va el video</p>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rq3n2sJ43Hg?si=7UIw3KxgTmnH7GQt"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+      </div>
+      <div class="piefoto">
+        <small>
+          Presentacion de Don Draper, <em><strong>Mad Man</strong></em>
+        </small>
+      </div>
+
       <p>
         Cabe preguntarse qué diferenciaría esta actitud de, pongamos por caso,
         la enésima edición de un clásico de la literatura que lleva siglos
@@ -151,25 +165,28 @@
     </section>
     <section id="section-elscrollinfinto">
       <h2>El <i>scroll</i> infinito de la cultura</h2>
-      <div id="div-cita">
-        <hr />
-        <div id="div-texto-cita">
-          <p>
-            El contenido no tiene fin. Es consumible pero inagotable. Las
-            producciones de Marvel son como el scroll infinito: las películas
-            se ven en un flujo constante, que siempre se está reabasteciendo a
-            sí mismo sin fin. La ironía es que el contenido se consume con
-            facilidad, pero se olvida rápidamente.
-          </p>
+      <article class="div-cita-container">
+        <div class="div-cita">
+          <hr />
+          <div id="div-texto-cita">
+            <p><strong>
+                El contenido no tiene fin. Es consumible pero inagotable. Las
+                producciones de Marvel son como el scroll infinito: las películas
+                se ven en un flujo constante, que siempre se está reabasteciendo a
+                sí mismo sin fin. La ironía es que el contenido se consume con
+                facilidad, pero se olvida rápidamente.
+              </strong>
+            </p>
+          </div>
+          <hr />
+          <div id="div-author-cita">
+            <p>
+              <small>&mdash; Grafton Tanner,
+                <strong><i>Foreverism </i></strong>&mdash;</small>
+            </p>
+          </div>
         </div>
-        <hr />
-        <div id="div-author-cita">
-          <p>
-            <small>&mdash; Grafton Tanner,
-              <strong><i>Foreverism </i></strong>&mdash;</small>
-          </p>
-        </div>
-      </div>
+      </article>
       <p>
         Esta última idea lleva algún tiempo debatiéndose, al menos desde que
         la web permite un consumo virtualmente ilimitado de obras. Si bien
@@ -305,14 +322,15 @@
         derecho a poner fin a lo que parece no querer tenerlo.
       </p>
     </section>
-    <section id="section-author-data">
+    <section class="section-author" id="section-author-data">
       <div id="div-author-images">
         <img class="img_author" src="./img/jose-heinz.jpg" alt="foto-jose-heinz" />
       </div>
       <div id="div-author-text">
         <h2>José Heitz</h2>
         <p><small>Periodista, gestor cultural, docente y escritor</small></p>
-        <p><small>Fuente: <a class="anchor_red" href="https://lab.cccb.org/es/un-mundo-sin-nostalgia/">
+        <p><small>Fuente: <a class="anchor_red" title="Ir a Centro de Cultura Contemporánea de Barcelona"
+              href="https://lab.cccb.org/es/un-mundo-sin-nostalgia/">
               Centro de Cultura Contemporánea de Barcelona <img src="./img/external-link.svg"
                 alt="imagen_autor"></a></small></p>
       </div>
@@ -328,6 +346,9 @@
         </small></p>
     </div>
   </footer>
+  <script src="./scripts/gsap.min.js"></script>
+  <script type="module" src="./scripts/animation.js"></script>
+  
 </body>
 
 </html>

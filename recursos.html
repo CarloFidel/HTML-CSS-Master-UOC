@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Carlo Fidel Taboada Petersson" />
+    <meta name="description" content="A simple web page" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
+    <link rel="stylesheet" href="./css/constant.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>BIT</title>
+</head>
+
+<body>
+    <header class="header-global">
+        <nav aria-label="Navegación principal">
+            <img src="./img/bit-logo.svg" alt="inicio-logo" id="bit-logo" class="image--logo" />
+            <ul class="sin_viñetas">
+                <li>
+                    <a class="no_decoration" href="./index.html" title="Ir a Artículo"><strong>ARTÍCULO</strong></a>
+                </li>
+                <li>
+                    <a class="current_page no_decoration" href="./recursos.html"
+                        title="Ir a Recursos"><strong>RECURSOS</strong></a>
+                </li>
+                <li>
+                    <a class="no_decoration" href="./glosario.html" title="Ir a Glosario"><strong>GLOSARIO</strong></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-recursos">
+        <header class="header-articulo">
+            <h1>Inteligencias artificiales musicales</h1>
+        </header>
+        <p>
+            Según podemos leer en la Wikipedia, la inteligencia artificial es una parte de la informática dedicada al
+            desarrollo de algoritmos que permiten a las máquinas procesar datos de su entorno y utilizar el aprendizaje
+            para decisiones que simulan comportarse como si tuviese una inteligencia parecida a la humana.
+        </p>
+        <p>
+            En el ámbito musical, la IA se ha convertido en una herramienta potente. Hay programas que son capaces de
+            componer melodías, generar voces, escribir letras... Podemos considerar a la IA tan creativa como un músico
+            más? Sustituirá a los creadores?…
+        </p>
+        <p>
+            A continuación encontrarás un listado, no exhaustivo, de inteligencias artificiales aplicadas a la música,
+            que reúne recursos para la composición, el canto, la producción y la experimentación sonora.
+        </p>
+        <section class="section-audio">
+            <div class="audio-container">
+                <audio class="archivo-audio" src="./music/intro-musical.mp3" controls></audio>
+            </div>
+        </section>
+        <section class="lista-padre">
+            <ul class="viñetas_cuadradas">
+                <li>Generación Musical
+                    <ul class="viñetas_circulares">
+                        <li><a class="anchor_red " href="https://www.aiva.ai">AIVA - Compositor de IA</a></li>
+                        <li><a class="anchor_red " href="https://www.ampermusic.com">Amper Music</a></li>
+                        <li><a class="anchor_red " href="https://openai.com/blog/musenet">OpenAI MuseNet</a></li>
+                    </ul>
+                </li>
+                <li>Síntesis de Voz
+                    <ul class="viñetas_circulares">
+                        <li><a class="anchor_red " href="https://mubert.com">Mubert - Música generativa</a></li>
+                        <li><a class="anchor_red " href="https://www.lalal.ai">LALAL.AI - Separación vocal</a></li>
+                    </ul>
+                </li>
+                <li>Producción Musical
+                    <ul class="viñetas_circulares">
+                        <li><a class="anchor_red " href="https://www.landr.com">LANDR - Mastering automático</a></li>
+                        <li><a class="anchor_red " href="https://www.splice.com">Splice - Samples con IA</a></li>
+                    </ul>
+                </li>
+                <li>Experimentación Sonora
+                    <ul class="viñetas_circulares">
+                        <li><a class="anchor_red " href="https://experiments.withgoogle.com/ai/sound-maker" target="_blank">Google AI Sound Maker</a></li>
+                        <li><a class="anchor_red " href="https://www.endlesss.fm">Endlesss - Jam sessions con IA</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+    <footer>
+        <div id="div-footer">
+            <p><small>
+                    Carlo Fidel Taboada Petersson
+                </small></p>
+            <p><small>
+                    UOC, 2025 | Para la asignatura HTML y CSS
+                </small></p>
+        </div>
+    </footer>
+    <script src="./scripts/gsap.min.js"></script>
+    <script type="module" src="./scripts/animation.js"></script>
+
+</body>
+
+</html>
