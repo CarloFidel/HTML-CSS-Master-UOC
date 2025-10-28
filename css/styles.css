@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+h1 {
+  width: 90%;
+  text-align: center;
+}
+
 h2 {
   margin-bottom: 15px;
 }
@@ -166,16 +171,15 @@ hr {
   margin: 0% 0% 0% 20%;
   font-size: 1.2rem;
 }
+
 ul.viñetas_circulares {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .lista-padre ul {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-
-
 
 .audio-container {
   display: flex;
@@ -195,6 +199,22 @@ ul.viñetas_circulares {
   list-style-type: square;
 }
 
+/* Glosario */
+.section_glosario {
+  & h2 {
+    margin-bottom: 0px
+  }
+
+  & li ul li {
+    margin-left: 40px;
+    list-style-type: disc;
+    }
+
+}
+
+.glosario_item {
+  margin: 20px 0px 20px 10%;
+}
 /* footer */
 footer {
   margin-top: 20px;
