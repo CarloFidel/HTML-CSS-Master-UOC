@@ -1,354 +1,414 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Carlo Fidel Taboada Petersson" />
+    <meta name="description" content="A simple web page" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>BIT</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Carlo Fidel Taboada Petersson" />
-  <meta name="description" content="A simple web page" />
-  <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
-  <link rel="stylesheet" href="./css/constant.css" />
-  <link rel="stylesheet" href="./css/styles.css" />
-  <title>BIT</title>
-</head>
-
-<body>
-  <header class="header-global">
-    <nav aria-label="Navegación principal">
-      <img src="./img/bit-logo.svg" alt="inicio-logo" id="bit-logo" class="image--logo" />
-      <ul class="sin_viñetas">
-        <li>
-          <a class="current_page no_decoration" href="./index.html" title="Ir a Artículo"><strong>ARTÍCULO</strong></a>
-        </li>
-        <li>
-          <a class="no_decoration" href="./recursos.html" title="Ir a Recursos"><strong>RECURSOS</strong></a>
-        </li>
-        <li>
-          <a class="no_decoration" href="./glosario.html" title="Ir a Glosario"><strong>GLOSARIO</strong></a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <header class="header-articulo">
-      <h1>Un mundo sin nostalgia</h1>
-      <div id="div-author">
-        <p class="anchor_red">
-          <strong><a class="anchor_red" title="Más sobre José Heitz" href="">JOSÉ HEITZ</a></strong>
-        </p>
-        <p id="fecha">
-          <small> <strong>11 de marzo de 2025</strong></small>
-        </p>
-      </div>
+  <body>
+    <header class="header-global">
+      <nav aria-label="Navegación principal">
+        <img
+          src="./img/bit-logo.svg"
+          alt="inicio-logo"
+          id="bit-logo"
+          class="image--logo"
+        />
+        <ul class="sin_viñetas">
+          <li>
+            <a
+              class="current_page no_decoration"
+              href="./index.html"
+              title="Ir a Artículo"
+              ><strong>ARTÍCULO</strong></a
+            >
+          </li>
+          <li>
+            <a
+              class="no_decoration"
+              href="./recursos.html"
+              title="Ir a Recursos"
+              ><strong>RECURSOS</strong></a
+            >
+          </li>
+          <li>
+            <a
+              class="no_decoration"
+              href="./glosario.html"
+              title="Ir a Glosario"
+              ><strong>GLOSARIO</strong></a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
-    <section id="section-intro">
-      <div class="div-subtitle">
-        <p>
-          ¿Qué ocurre cuando el pasado nunca termina de desaparecer, sino que se
-          recicla a través de nuevas formas?
-        </p>
-      </div>
-      <div class="img-container">
-        <img src="./img/nostalgia.jpg" alt="img-nostalgia" class="img-nostalgia" />
-      </div>
-      <div class="piefoto">
-        <small>
-          Campaña de limpieza en a La Haya, 1961 |
-          <a class="anchor_red" title="ir a National Archief"
-            href="https://www.nationaalarchief.nl/onderzoeken/fotocollectie/a9e473b4-d0b4-102d-bcf8-003048976d84">
-            Nationaal Archief <img src="./img/external-link.svg" alt="icono-external-link" />
-          </a>
-          | Dominio público
-        </small>
-      </div>
-
-    </section>
-    <section id="section-desarrollo">
-      <div class="div-subtitle" id="div-subtitle">
-        <p>
-          La industria del entretenimiento ha acabado con los finales. Sus
-          estrategias para vender más fomentan un reciclaje de contenidos que
-          impide que terminen o caduquen. Cuando todo está siempre ante
-          nosotros, ¿cómo es posible la nostalgia?
-        </p>
-      </div>
-      <p>
-        Una vez que terminó la cuarta canción de su lista de reproducción
-        personalizada, DJ Livi, la Inteligencia Artificial de Spotify, me
-        informó con su voz amable:
-        <strong>Bien, regresemos por un rato a 2021. Esto es una mezcla de lo que
-          escuchaste ese año</strong>. A continuación, efectivamente, comenzaron a sonar canciones que
-        había oído con bastante frecuencia hace unos años, piezas musicales
-        que recordaba bien pero a las que llevaba algún tiempo sin dar al
-        play: me traían al presente un pasado cercano, demasiado reciente como
-        para producir un efecto nostálgico. No había melancolía ni sensación
-        de pérdida en esa evocación. Se trataba más bien de un recuerdo apenas
-        borroso, como el estampado de una remera después de varios lavados.
-      </p>
-      <p>
-        Si entendemos por nostalgia la emoción que experimentamos cuando el
-        pasado reaparece brevemente en el presente, ¿cómo podríamos definir
-        los efectos que promueve esta función de Spotify en particular y la
-        cultura del siglo XXI en general? ¿Qué ocurre cuando el pasado nunca
-        termina de desaparecer, sino que se recicla a través de nuevas formas?
-        El crítico estadounidense Grafton Tanner lo llama porsiemprismo
-        (foreverism), que es una manera de establecer que la digitalización de
-        las últimas décadas (los recuerdos, las obras de arte, el
-        conocimiento) impulsa una idea de presente continuo, sin posibilidad
-        de final. Y desde allí plantea un interrogante para pensar la época:
-        ¿es posible la añoranza si todo está ante nosotros de forma
-        permanente?
-      </p>
-    </section>
-    <section id="section-elpresente">
-      <h2>El presente perpetuo</h2>
-      <p>
-        Si en la segunda mitad del siglo XX publicistas y productores
-        comenzaron a considerar la nostalgia como una estrategia de márquetin
-        efectiva (recordad a Don Draper y su pitch sobre el proyector de
-        diapositivas), en los últimos años la industria del entretenimiento
-        parece haber optado por un objetivo más ambicioso: evitar directamente
-        la desaparición de las cosas para que la rueda nunca se detenga.
-      </p>
-      <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/rq3n2sJ43Hg?si=7UIw3KxgTmnH7GQt"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-        </iframe>
-      </div>
-      <div class="piefoto">
-        <small>
-          Presentacion de Don Draper, <em><strong>Mad Man</strong></em>
-        </small>
-      </div>
-
-      <p>
-        Cabe preguntarse qué diferenciaría esta actitud de, pongamos por caso,
-        la enésima edición de un clásico de la literatura que lleva siglos
-        siendo leído a través de sus sucesivas reimpresiones. La respuesta
-        está en su reciclado. En Foreverism (disponible en castellano:
-        Porsiemprismo), Tanner diferencia entre la preservación, la
-        restauración y el hecho de porsiemprizar una cosa. Lo ejemplifica con
-        una banda de rock legendaria. En ese caso, preservar su legado sería
-        mantener en condiciones óptimas sus grabaciones de estudio. La
-        restauración de su obra, por otra parte, equivaldría al hecho de
-        mejorar ese material original a través de técnicas más actuales, como
-        una nueva mezcla de audio o una remasterización para que suene lo más
-        nítida posible, pero siempre con la intención de mantener el espíritu
-        original.
-      </p>
-      <p>
-        La porsiemprización, en cambio, intenta renovar ese legado a través de
-        distintas estrategias. Por ejemplo, giras mundiales con integrantes
-        nuevos en reemplazo de algunos de los originales, documentales,
-        espectáculos musicales inspirados en la agrupación o álbumes de
-        remezclas a cargo de artistas más jóvenes, que ofrecen una relectura
-        actualizada de los tiempos que corren. Es una actitud que fomenta un
-        continuum de contenido, apto para todas las edades, tanto para los que
-        vivieron la época de esplendor del artista como para las nuevas
-        generaciones. Una industria que siempre encuentra maneras de vendernos
-        algo.
-      </p>
-      <p>
-        Esto también se percibe de forma clara en las grandes sagas
-        cinematográficas o en los multiversos de superhéroes. Gracias a un
-        éxito inicial cada vez más lejano, pero sobre todo gracias a su legión
-        de fanáticos, universos como los de Star Wars o los de los personajes
-        de Marvel se expanden a través de películas y series nuevas, que a su
-        vez se retroalimentan con debates en redes sociales, pódcast y vídeos
-        de aficionados, lo que hace que estar al día con esas narrativas
-        ensanchadas resulte abrumador, solo apto para expertos. Esto genera un
-        espectador ansioso y semiinformado, que consume esta clase de
-        productos no como una obra, sino como contenido.
-      </p>
-    </section>
-    <section id="section-elscrollinfinto">
-      <h2>El <i>scroll</i> infinito de la cultura</h2>
-      <article class="div-cita-container">
-        <div class="div-cita">
-          <hr />
-          <div id="div-texto-cita">
-            <p><strong>
-                El contenido no tiene fin. Es consumible pero inagotable. Las
-                producciones de Marvel son como el scroll infinito: las películas
-                se ven en un flujo constante, que siempre se está reabasteciendo a
-                sí mismo sin fin. La ironía es que el contenido se consume con
-                facilidad, pero se olvida rápidamente.
-              </strong>
-            </p>
-          </div>
-          <hr />
-          <div id="div-author-cita">
-            <p>
-              <small>&mdash; Grafton Tanner,
-                <strong><i>Foreverism </i></strong>&mdash;</small>
-            </p>
-          </div>
+    <main>
+      <header class="header-articulo">
+        <h1>Un mundo sin nostalgia</h1>
+        <div id="div-author">
+          <p class="anchor_red">
+            <strong
+              ><a
+                class="anchor_red"
+                title="Más sobre José Heitz"
+                href="https://lab.cccb.org/es/un-mundo-sin-nostalgia/"
+                >JOSÉ HEITZ</a
+              ></strong
+            >
+          </p>
+          <p id="fecha">
+            <small> <strong>11 de marzo de 2025</strong></small>
+          </p>
         </div>
-      </article>
-      <p>
-        Esta última idea lleva algún tiempo debatiéndose, al menos desde que
-        la web permite un consumo virtualmente ilimitado de obras. Si bien
-        internet permitió a millones de personas acceder a material que en
-        otras épocas resultaba casi imposible (fuera por costes o por
-        problemas de distribución), su contracara planteaba un acercamiento
-        más débil y descontextualizado. Ya en 2011, el crítico musical Simon
-        Reynolds señalaba que ese consumo omnívoro de información cultural, al
-        que denominó xenomania, podría tener efectos adormecedores:
-        <strong>&laquo;El caso parece ser que los estilos mestizos de gestación
-          lenta propios de la era analógica (el reggae, por ejemplo, que surge
-          como una forma rítmicamente invertida del R&B de Nueva Orleans)
-          tienen más poder de permanencia y fecundidad que los híbridos
-          copiar-y-pegar de la era digital&raquo;</strong>.
-      </p>
-      <p>
-        La cuestión es cómo aquello se ha profundizado en otras aristas de la
-        vida digital y, en ese sentido, no es inocente ni casual la
-        comparativa de Tanner con la forma en que usamos las redes sociales,
-        ya que esa actitud indiferente (el scroll infinito) también parece
-        regir los vínculos sociales de la época. Hasta hace algún tiempo,
-        podíamos conocer a una persona, entablar una relación más o menos
-        profunda, pero cuando ese lazo se terminaba o se iba apagando por
-        diversos motivos, generalmente no volvíamos a saber de ella. Hoy es
-        habitual que interactuemos con la gente a través de las plataformas
-        digitales, inclusive con aquellas que conocimos apenas una vez en la
-        vida real. Eso hace que ese vínculo nunca desaparezca del todo, porque
-        incluso cuando hemos terminado una relación duradera, sea sentimental
-        o laboral, está la posibilidad de husmear esa vida ajena a través de
-        sus perfiles en redes sociales. Como ocurre con las obras culturales,
-        al no haber un final, se imposibilita la nostalgia.
-      </p>
-      <p>
-        Los finales, sean de una relación o de un relato, son fundamentales
-        para cualquier historia, porque son los que dotan de sentido a una
-        experiencia, habilitan una reflexión que surge después de determinado
-        tiempo.
-        <strong>Para poder apreciar el pasado, tenemos que formar recuerdos, y para
-          que eso suceda quizá sea necesario cortar algunos lazos</strong>, plantea Tanner.
-      </p>
-      <p>
-        Esta narración persistente es uno de los motores de la fase actual del
-        capitalismo. A la caducidad de una franquicia exitosa le espera una
-        secuela, una precuela, un spin off o un reboot, de la misma forma que
-        el destino de un objeto será su nueva versión o una actualización de
-        su sistema operativo: la máquina debe seguir funcionando, tiene que
-        crear nuevas necesidades de consumo.
-      </p>
-    </section>
-    <section id="section-enmanosdelAlgoritmo">
-      <h2>La música en las manos del algoritmo</h2>
-      <p>
-        Ahora volvamos a Livi, la DJ virtual que conoce nuestro historial
-        como oyentes. Hay algo en esa función que remite a Samantha, el
-        sistema operativo que entabla una relación con el protagonista de
-        <strong>Her</strong> (Spike Jonze, 2013), y no solo por la voz
-        femenina: tanto una como otra generan la ilusión de saber cosas
-        íntimas, un efecto producido por su fuente de conocimiento, que en
-        ambos casos es el historial de nuestra vida en las pantallas.
-      </p>
-      <p>
-        La manera en que Spotify promueve artistas y canciones en su
-        plataforma es otra representación del escenario porsiemprista,
-        incluso más que otras plataformas de música. Al estudiar en detalle
-        su evolución como modelo de negocio se puede percibir cómo ha ido
-        moldeando no solo los gustos de sus usuarios, sino de toda la
-        industria musical. Lo que empezó como el sueño de todo melómano
-        —poder escuchar casi cualquier disco en cuestión de segundos—, con
-        el tiempo se volvió una máquina predictiva alimentada por una
-        gigantesca base de datos (1 de cada 12 personas en el mundo son
-        usuarios activos).
-      </p>
-      <p>
-        A nadie sorprende a estas alturas que Spotify promocione sus propios
-        productos, como sus pódcast, listas de reproducción y las mezclas
-        que arma su algoritmo, o que en su interfaz sea cada vez más difícil
-        encontrar álbumes. Pero las consecuencias de esas políticas son
-        todavía impredecibles, incluso cuando ya se pueden percibir cambios
-        tanto para oyentes como para artistas.
-      </p>
-      <p>
-        En su libro
-        <strong><em>Mood Machine: The Rise of Spotify and the Costs of the Perfect
-            Playlist</em></strong>, la periodista Liz Pelly investiga cómo se produjeron estos
-        cambios en la plataforma y qué puede deparar el hecho de que las
-        personas continúen dependiendo de ella para el consumo de música.
-        <strong>Durante sus primeras dos décadas de existencia, a medida que
-          Spotify pasó de la creación de listas de reproducción internas a
-          su siguiente paso como motor de personalización, se preocupó cada
-          vez más por moldear el comportamiento de los usuarios en la
-          plataforma; es decir, influir en los hábitos de escucha, porque
-          Spotify se beneficia cuando reproducimos contenido que le resulta
-          más barato</strong>, afirma.
-      </p>
-      <p>
-        Luego añade:
-        <strong>Internamente, la empresa analiza una métrica llamada 'cuota de
-          reproducción programada' (el porcentaje de escucha total
-          influenciado por sus recomendaciones) y pretende aumentar esa
-          métrica. Esto debería preocupar a los oyentes por razones que van
-          más allá de los gustos personales y la experiencia del usuario:
-          cuestiones de poder y trabajo. El objetivo es engancharnos como
-          usuarios, por supuesto, pero también desviar la cuota de
-          reproducción total hacia ofertas con descuento: obras que han sido
-          licenciadas a Spotify a un precio menor, tanto a través de su
-          programa de artistas fantasma como de sus prácticas algorítmicas
-          similares a las de los sobornos</strong>.
-      </p>
-      <p>
-        Aquí entra en escena la gran tecnología de estos tiempos, la
-        Inteligencia Artificial. Con su abanico de posibilidades, juega un
-        papel muy importante en esta clase de plataformas. Primero, en forma
-        de algoritmo que se adapta a nuestros consumos, pero también con la
-        posibilidad de generar música por su cuenta. Si la digitalización de
-        los archivos, sumada a la revolución P2P, habilitó la circulación de
-        obras grabadas de forma prácticamente gratuita, esta nueva fase
-        podría poner en jaque a los artistas más que a la industria: ¿qué
-        ocurriría si tanto sellos discográficos como plataformas de música
-        tomaran la decisión de prescindir de los músicos? Ya existen
-        herramientas que permiten crear piezas musicales a partir de
-        prompts, por lo que ese futuro no suena descabellado ni distópico,
-        al menos si la música —o la industria audiovisual— sigue funcionando
-        como un bien de consumo.
-      </p>
-      <p>
-        Este tipo de contenidos generados de forma autónoma, con la única
-        intervención humana de una orden, refuerzan esta dinámica cultural,
-        en la que el contexto de una obra parece importar cada vez menos,
-        donde las narrativas tradicionales, con todo su peso histórico,
-        están perdiendo la batalla frente a un entretenimiento pasatista,
-        fugaz. Y esta vez no basta con que músicos o guionistas alcen la voz
-        contra esta clase de injusticias: los consumidores también tienen
-        derecho a poner fin a lo que parece no querer tenerlo.
-      </p>
-    </section>
-    <section class="section-author" id="section-author-data">
-      <div id="div-author-images">
-        <img class="img_author" src="./img/jose-heinz.jpg" alt="foto-jose-heinz" />
-      </div>
-      <div id="div-author-text">
-        <h2>José Heitz</h2>
-        <p><small>Periodista, gestor cultural, docente y escritor</small></p>
-        <p><small>Fuente: <a class="anchor_red" title="Ir a Centro de Cultura Contemporánea de Barcelona"
-              href="https://lab.cccb.org/es/un-mundo-sin-nostalgia/">
-              Centro de Cultura Contemporánea de Barcelona <img src="./img/external-link.svg"
-                alt="imagen_autor"></a></small></p>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <div id="div-footer">
-      <p><small>
-          Carlo Fidel Taboada Petersson
-        </small></p>
-      <p><small>
-          UOC, 2025 | Para la asignatura HTML y CSS
-        </small></p>
-    </div>
-  </footer>
-  <script src="./scripts/gsap.min.js"></script>
-  <script type="module" src="./scripts/animation.js"></script>
-  
-</body>
+      </header>
+      <section id="section-intro">
+        <div class="div-subtitle">
+          <p>
+            ¿Qué ocurre cuando el pasado nunca termina de desaparecer, sino que
+            se recicla a través de nuevas formas?
+          </p>
+        </div>
+        <div class="img-container">
+          <img
+            src="./img/nostalgia.jpg"
+            alt="img-nostalgia"
+            class="img-nostalgia"
+          />
+        </div>
+        <div class="piefoto">
+          <small>
+            Campaña de limpieza en a La Haya, 1961 |
+            <a
+              class="anchor_red"
+              title="ir a National Archief"
+              href="https://www.nationaalarchief.nl/onderzoeken/fotocollectie/a9e473b4-d0b4-102d-bcf8-003048976d84"
+            >
+              Nationaal Archief
+              <img src="./img/external-link.svg" alt="icono-external-link" />
+            </a>
+            | Dominio público
+          </small>
+        </div>
+      </section>
+      <section id="section-desarrollo">
+        <div class="div-subtitle" id="div-subtitle">
+          <p>
+            La industria del entretenimiento ha acabado con los finales. Sus
+            estrategias para vender más fomentan un reciclaje de contenidos que
+            impide que terminen o caduquen. Cuando todo está siempre ante
+            nosotros, ¿cómo es posible la nostalgia?
+          </p>
+        </div>
+        <p>
+          Una vez que terminó la cuarta canción de su lista de reproducción
+          personalizada, DJ Livi, la Inteligencia Artificial de Spotify, me
+          informó con su voz amable:
+          <strong
+            >Bien, regresemos por un rato a 2021. Esto es una mezcla de lo que
+            escuchaste ese año</strong
+          >. A continuación, efectivamente, comenzaron a sonar canciones que
+          había oído con bastante frecuencia hace unos años, piezas musicales
+          que recordaba bien pero a las que llevaba algún tiempo sin dar al
+          play: me traían al presente un pasado cercano, demasiado reciente como
+          para producir un efecto nostálgico. No había melancolía ni sensación
+          de pérdida en esa evocación. Se trataba más bien de un recuerdo apenas
+          borroso, como el estampado de una remera después de varios lavados.
+        </p>
+        <p>
+          Si entendemos por nostalgia la emoción que experimentamos cuando el
+          pasado reaparece brevemente en el presente, ¿cómo podríamos definir
+          los efectos que promueve esta función de Spotify en particular y la
+          cultura del siglo XXI en general? ¿Qué ocurre cuando el pasado nunca
+          termina de desaparecer, sino que se recicla a través de nuevas formas?
+          El crítico estadounidense Grafton Tanner lo llama porsiemprismo
+          (foreverism), que es una manera de establecer que la digitalización de
+          las últimas décadas (los recuerdos, las obras de arte, el
+          conocimiento) impulsa una idea de presente continuo, sin posibilidad
+          de final. Y desde allí plantea un interrogante para pensar la época:
+          ¿es posible la añoranza si todo está ante nosotros de forma
+          permanente?
+        </p>
+      </section>
+      <section id="section-elpresente">
+        <h2>El presente perpetuo</h2>
+        <p>
+          Si en la segunda mitad del siglo XX publicistas y productores
+          comenzaron a considerar la nostalgia como una estrategia de márquetin
+          efectiva (recordad a Don Draper y su pitch sobre el proyector de
+          diapositivas), en los últimos años la industria del entretenimiento
+          parece haber optado por un objetivo más ambicioso: evitar directamente
+          la desaparición de las cosas para que la rueda nunca se detenga.
+        </p>
+        <div class="video-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/rq3n2sJ43Hg?si=7UIw3KxgTmnH7GQt"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+        <div class="piefoto" id="piefoto_video">
+          <small>
+            Presentacion de Don Draper, <em><strong>Mad Man</strong></em>
+          </small>
+        </div>
 
+        <p>
+          Cabe preguntarse qué diferenciaría esta actitud de, pongamos por caso,
+          la enésima edición de un clásico de la literatura que lleva siglos
+          siendo leído a través de sus sucesivas reimpresiones. La respuesta
+          está en su reciclado. En Foreverism (disponible en castellano:
+          Porsiemprismo), Tanner diferencia entre la preservación, la
+          restauración y el hecho de porsiemprizar una cosa. Lo ejemplifica con
+          una banda de rock legendaria. En ese caso, preservar su legado sería
+          mantener en condiciones óptimas sus grabaciones de estudio. La
+          restauración de su obra, por otra parte, equivaldría al hecho de
+          mejorar ese material original a través de técnicas más actuales, como
+          una nueva mezcla de audio o una remasterización para que suene lo más
+          nítida posible, pero siempre con la intención de mantener el espíritu
+          original.
+        </p>
+        <p>
+          La porsiemprización, en cambio, intenta renovar ese legado a través de
+          distintas estrategias. Por ejemplo, giras mundiales con integrantes
+          nuevos en reemplazo de algunos de los originales, documentales,
+          espectáculos musicales inspirados en la agrupación o álbumes de
+          remezclas a cargo de artistas más jóvenes, que ofrecen una relectura
+          actualizada de los tiempos que corren. Es una actitud que fomenta un
+          continuum de contenido, apto para todas las edades, tanto para los que
+          vivieron la época de esplendor del artista como para las nuevas
+          generaciones. Una industria que siempre encuentra maneras de vendernos
+          algo.
+        </p>
+        <p>
+          Esto también se percibe de forma clara en las grandes sagas
+          cinematográficas o en los multiversos de superhéroes. Gracias a un
+          éxito inicial cada vez más lejano, pero sobre todo gracias a su legión
+          de fanáticos, universos como los de Star Wars o los de los personajes
+          de Marvel se expanden a través de películas y series nuevas, que a su
+          vez se retroalimentan con debates en redes sociales, pódcast y vídeos
+          de aficionados, lo que hace que estar al día con esas narrativas
+          ensanchadas resulte abrumador, solo apto para expertos. Esto genera un
+          espectador ansioso y semiinformado, que consume esta clase de
+          productos no como una obra, sino como contenido.
+        </p>
+      </section>
+      <section id="section-elscrollinfinto">
+        <h2>El <i>scroll</i> infinito de la cultura</h2>
+        <article class="div-cita-container">
+          <div class="div-cita">
+            <hr />
+            <div id="div-texto-cita">
+              <p>
+                <strong>
+                  El contenido no tiene fin. Es consumible pero inagotable. Las
+                  producciones de Marvel son como el scroll infinito: las
+                  películas se ven en un flujo constante, que siempre se está
+                  reabasteciendo a sí mismo sin fin. La ironía es que el
+                  contenido se consume con facilidad, pero se olvida
+                  rápidamente.
+                </strong>
+              </p>
+            </div>
+            <hr />
+            <div id="div-author-cita">
+              <p>
+                <small
+                  >&mdash; Grafton Tanner,
+                  <strong><i>Foreverism </i></strong>&mdash;</small
+                >
+              </p>
+            </div>
+          </div>
+        </article>
+        <p>
+          Esta última idea lleva algún tiempo debatiéndose, al menos desde que
+          la web permite un consumo virtualmente ilimitado de obras. Si bien
+          internet permitió a millones de personas acceder a material que en
+          otras épocas resultaba casi imposible (fuera por costes o por
+          problemas de distribución), su contracara planteaba un acercamiento
+          más débil y descontextualizado. Ya en 2011, el crítico musical Simon
+          Reynolds señalaba que ese consumo omnívoro de información cultural, al
+          que denominó xenomania, podría tener efectos adormecedores:
+          <strong
+            >&laquo;El caso parece ser que los estilos mestizos de gestación
+            lenta propios de la era analógica (el reggae, por ejemplo, que surge
+            como una forma rítmicamente invertida del R&B de Nueva Orleans)
+            tienen más poder de permanencia y fecundidad que los híbridos
+            copiar-y-pegar de la era digital&raquo;</strong
+          >.
+        </p>
+        <p>
+          La cuestión es cómo aquello se ha profundizado en otras aristas de la
+          vida digital y, en ese sentido, no es inocente ni casual la
+          comparativa de Tanner con la forma en que usamos las redes sociales,
+          ya que esa actitud indiferente (el scroll infinito) también parece
+          regir los vínculos sociales de la época. Hasta hace algún tiempo,
+          podíamos conocer a una persona, entablar una relación más o menos
+          profunda, pero cuando ese lazo se terminaba o se iba apagando por
+          diversos motivos, generalmente no volvíamos a saber de ella. Hoy es
+          habitual que interactuemos con la gente a través de las plataformas
+          digitales, inclusive con aquellas que conocimos apenas una vez en la
+          vida real. Eso hace que ese vínculo nunca desaparezca del todo, porque
+          incluso cuando hemos terminado una relación duradera, sea sentimental
+          o laboral, está la posibilidad de husmear esa vida ajena a través de
+          sus perfiles en redes sociales. Como ocurre con las obras culturales,
+          al no haber un final, se imposibilita la nostalgia.
+        </p>
+        <p>
+          Los finales, sean de una relación o de un relato, son fundamentales
+          para cualquier historia, porque son los que dotan de sentido a una
+          experiencia, habilitan una reflexión que surge después de determinado
+          tiempo.
+          <strong
+            >Para poder apreciar el pasado, tenemos que formar recuerdos, y para
+            que eso suceda quizá sea necesario cortar algunos lazos</strong
+          >, plantea Tanner.
+        </p>
+        <p>
+          Esta narración persistente es uno de los motores de la fase actual del
+          capitalismo. A la caducidad de una franquicia exitosa le espera una
+          secuela, una precuela, un spin off o un reboot, de la misma forma que
+          el destino de un objeto será su nueva versión o una actualización de
+          su sistema operativo: la máquina debe seguir funcionando, tiene que
+          crear nuevas necesidades de consumo.
+        </p>
+      </section>
+      <section id="section-enmanosdelAlgoritmo">
+        <h2>La música en las manos del algoritmo</h2>
+        <p>
+          Ahora volvamos a Livi, la DJ virtual que conoce nuestro historial como
+          oyentes. Hay algo en esa función que remite a Samantha, el sistema
+          operativo que entabla una relación con el protagonista de
+          <strong>Her</strong> (Spike Jonze, 2013), y no solo por la voz
+          femenina: tanto una como otra generan la ilusión de saber cosas
+          íntimas, un efecto producido por su fuente de conocimiento, que en
+          ambos casos es el historial de nuestra vida en las pantallas.
+        </p>
+        <p>
+          La manera en que Spotify promueve artistas y canciones en su
+          plataforma es otra representación del escenario porsiemprista, incluso
+          más que otras plataformas de música. Al estudiar en detalle su
+          evolución como modelo de negocio se puede percibir cómo ha ido
+          moldeando no solo los gustos de sus usuarios, sino de toda la
+          industria musical. Lo que empezó como el sueño de todo melómano —poder
+          escuchar casi cualquier disco en cuestión de segundos—, con el tiempo
+          se volvió una máquina predictiva alimentada por una gigantesca base de
+          datos (1 de cada 12 personas en el mundo son usuarios activos).
+        </p>
+        <p>
+          A nadie sorprende a estas alturas que Spotify promocione sus propios
+          productos, como sus pódcast, listas de reproducción y las mezclas que
+          arma su algoritmo, o que en su interfaz sea cada vez más difícil
+          encontrar álbumes. Pero las consecuencias de esas políticas son
+          todavía impredecibles, incluso cuando ya se pueden percibir cambios
+          tanto para oyentes como para artistas.
+        </p>
+        <p>
+          En su libro
+          <strong
+            ><em
+              >Mood Machine: The Rise of Spotify and the Costs of the Perfect
+              Playlist</em
+            ></strong
+          >, la periodista Liz Pelly investiga cómo se produjeron estos cambios
+          en la plataforma y qué puede deparar el hecho de que las personas
+          continúen dependiendo de ella para el consumo de música.
+          <strong
+            >Durante sus primeras dos décadas de existencia, a medida que
+            Spotify pasó de la creación de listas de reproducción internas a su
+            siguiente paso como motor de personalización, se preocupó cada vez
+            más por moldear el comportamiento de los usuarios en la plataforma;
+            es decir, influir en los hábitos de escucha, porque Spotify se
+            beneficia cuando reproducimos contenido que le resulta más
+            barato</strong
+          >, afirma.
+        </p>
+        <p>
+          Luego añade:
+          <strong
+            >Internamente, la empresa analiza una métrica llamada 'cuota de
+            reproducción programada' (el porcentaje de escucha total
+            influenciado por sus recomendaciones) y pretende aumentar esa
+            métrica. Esto debería preocupar a los oyentes por razones que van
+            más allá de los gustos personales y la experiencia del usuario:
+            cuestiones de poder y trabajo. El objetivo es engancharnos como
+            usuarios, por supuesto, pero también desviar la cuota de
+            reproducción total hacia ofertas con descuento: obras que han sido
+            licenciadas a Spotify a un precio menor, tanto a través de su
+            programa de artistas fantasma como de sus prácticas algorítmicas
+            similares a las de los sobornos</strong
+          >.
+        </p>
+        <p>
+          Aquí entra en escena la gran tecnología de estos tiempos, la
+          Inteligencia Artificial. Con su abanico de posibilidades, juega un
+          papel muy importante en esta clase de plataformas. Primero, en forma
+          de algoritmo que se adapta a nuestros consumos, pero también con la
+          posibilidad de generar música por su cuenta. Si la digitalización de
+          los archivos, sumada a la revolución P2P, habilitó la circulación de
+          obras grabadas de forma prácticamente gratuita, esta nueva fase podría
+          poner en jaque a los artistas más que a la industria: ¿qué ocurriría
+          si tanto sellos discográficos como plataformas de música tomaran la
+          decisión de prescindir de los músicos? Ya existen herramientas que
+          permiten crear piezas musicales a partir de prompts, por lo que ese
+          futuro no suena descabellado ni distópico, al menos si la música —o la
+          industria audiovisual— sigue funcionando como un bien de consumo.
+        </p>
+        <p>
+          Este tipo de contenidos generados de forma autónoma, con la única
+          intervención humana de una orden, refuerzan esta dinámica cultural, en
+          la que el contexto de una obra parece importar cada vez menos, donde
+          las narrativas tradicionales, con todo su peso histórico, están
+          perdiendo la batalla frente a un entretenimiento pasatista, fugaz. Y
+          esta vez no basta con que músicos o guionistas alcen la voz contra
+          esta clase de injusticias: los consumidores también tienen derecho a
+          poner fin a lo que parece no querer tenerlo.
+        </p>
+      </section>
+      <section class="section-author" id="section-author-data">
+        <div id="div-author-images">
+          <img
+            class="img_author"
+            src="./img/jose-heinz.jpg"
+            alt="foto-jose-heinz"
+          />
+        </div>
+        <div id="div-author-text">
+          <h2>José Heitz</h2>
+          <p><small>Periodista, gestor cultural, docente y escritor</small></p>
+          <p>
+            <small
+              >Fuente:
+              <a
+                class="anchor_red"
+                title="Ir a Centro de Cultura Contemporánea de Barcelona"
+                href="https://lab.cccb.org/es/un-mundo-sin-nostalgia/"
+              >
+                Centro de Cultura Contemporánea de Barcelona
+                <img src="./img/external-link.svg" alt="imagen_autor" /></a
+            ></small>
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="div-footer">
+        <p><small> Carlo Fidel Taboada Petersson </small></p>
+        <p><small> UOC, 2025 | Para la asignatura HTML y CSS </small></p>
+      </div>
+    </footer>
+    <script src="./js/gsap.min.js"></script>
+    <script type="module" src="./js/animation.js"></script>
+  </body>
 </html>

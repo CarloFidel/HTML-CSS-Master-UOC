@@ -6,6 +6,39 @@
   padding: 0;
 }
 
+:root {
+  --text-color: #2b1604;
+  --background-color: #f2f2f2;
+  --selection-color: #e48e88;
+  --red-color: #da3a35;
+  --title-color: #2e1e0c;
+  --gray-color: rgb(136, 136, 136);
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  background-color: var(--background-color);
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+a {
+  color: var(--text-color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
 h1 {
   width: 90%;
   text-align: center;
@@ -16,11 +49,12 @@ h2 {
 }
 
 main {
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 40%;
   margin: 10px 0px 0px 0px;
 }
 
@@ -46,7 +80,7 @@ nav {
 
 section {
   width: 100%;
-  margin: 5px 0px 5px 0px
+  margin: 5px 0px 5px 0px;
 }
 
 #div-author {
@@ -97,11 +131,10 @@ section {
   flex-direction: column;
   width: 100%;
   margin: 10px 0px 10px 0px;
-
 }
 
 .img-nostalgia {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -109,11 +142,17 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--text-color);
+  font-size: 1.15rem;
+}
+
+#piefoto_video{
+  margin-bottom: 10px;
 }
 
 hr {
   border: none;
-  border-top: 2px solid var(--gray-color);
+  border-top: 1px solid var(--gray-color);
   width: 100%;
 }
 
@@ -173,7 +212,7 @@ hr {
 }
 
 ul.viñetas_circulares {
-  font-size: 0.8rem;
+  font-size: 0.95rem;
 }
 
 .lista-padre ul {
@@ -202,14 +241,13 @@ ul.viñetas_circulares {
 /* Glosario */
 .section_glosario {
   & h2 {
-    margin-bottom: 0px
+    margin-bottom: 0px;
   }
 
   & li ul li {
     margin-left: 40px;
     list-style-type: disc;
-    }
-
+  }
 }
 
 .glosario_item {

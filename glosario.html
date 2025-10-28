@@ -1,199 +1,316 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Carlo Fidel Taboada Petersson" />
     <meta name="description" content="A simple web page" />
     <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
-    <link rel="stylesheet" href="./css/constant.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Glosario</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header-global">
-        <nav aria-label="Navegación principal">
-            <img src="./img/bit-logo.svg" alt="inicio-logo" id="bit-logo" class="image--logo" />
-            <ul class="sin_viñetas">
-                <li>
-                    <a class="no_decoration" href="./index.html" title="Ir a Artículo"><strong>ARTÍCULO</strong></a>
-                </li>
-                <li>
-                    <a class="no_decoration" href="./recursos.html" title="Ir a Recursos"><strong>RECURSOS</strong></a>
-                </li>
-                <li>
-                    <a class="current_page no_decoration" href="./glosario.html"
-                        title="Ir a Glosario"><strong>GLOSARIO</strong></a>
-                </li>
-            </ul>
-        </nav>
+      <nav aria-label="Navegación principal">
+        <img
+          src="./img/bit-logo.svg"
+          alt="inicio-logo"
+          id="bit-logo"
+          class="image--logo"
+        />
+        <ul class="sin_viñetas">
+          <li>
+            <a class="no_decoration" href="./index.html" title="Ir a Artículo"
+              ><strong>ARTÍCULO</strong></a
+            >
+          </li>
+          <li>
+            <a
+              class="no_decoration"
+              href="./recursos.html"
+              title="Ir a Recursos"
+              ><strong>RECURSOS</strong></a
+            >
+          </li>
+          <li>
+            <a
+              class="current_page no_decoration"
+              href="./glosario.html"
+              title="Ir a Glosario"
+              ><strong>GLOSARIO</strong></a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <header class="header-articulo">
-            <h1>Glosario de inteligencias artificiales musicales</h1>
-        </header>
-        <section class="section_glosario">
-            <h2>Generación musical</h2>
-            <hr>            
-            <div class="glosario_item">
-                <ul>
-                    <li id="aiva" class="sin_viñetas"><strong>AIVA</strong>
-                        <ul>
-                            <li>Qué hace: composición automática de música orquestal y bandas sonoras</li>
-                            <li>Usos: cine, videojuegos, anuncios</li>
-                            <li><a class="anchor_red" href="https://www.aiva.ai/">Sitio web</a></li>
-                        </ul>
-                    </li>
-                    <li id="soundraw" class="sin_viñetas"><strong>Soundraw</strong>
-                        <ul>
-                            <li>Qué hace: plataforma para crear música de fondo a medida</li>
-                            <li>Usos: youtubers, podcasteros, creadores de contenido</li>
-                            <li><a class="anchor_red" href="https://www.soundraw.io/">Sitio web</a></li>
-                        </ul>
-                    </li>
-                    <li id="mubert" class="sin_viñetas"><strong>Mubert</strong>
-                        <ul>
-                            <li>Qué hace: streaming infinito de música generada.</li>
-                            <li>Usos: ambientes sonoros, productividad, pinchadiscos</li>
-                            <li><a class="anchor_red" href="https://www.mubert.com/">Sitio web</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="section_glosario">
-            <h2>Voces y canto</h2>
-            <hr>            
-            <div class="glosario_item">
-                <ul>
-                    <li id="synthesizerv" class="sin_viñetas"><strong>Synthesizer V</strong>
-                        <ul>
-                            <li>Qué hace: motor de voces sintéticas ultrarealistas para canto</li>
-                            <li>Usos: producción musical profesional</li>
-                            <li><a class="anchor_red" href="https://dreamtonics.com/synthesizerv">Sitio web</a></li>
-                        </ul>
-                    </li>
-                    <li id="voicifyai" class="sin_viñetas"><strong>Voicify AI</strong>
-                        <ul>
-                            <li>Qué hace: crea versiones de canciones utilizando voces clonadas.</li>
-                            <li>Usos: entretenimiento, mezclas virales.</li>
-                            <li><a class="anchor_red" href="https://www.jammable.com/">Sitio web</a></li>
-                        </ul>
-                    </li>
-                    <li id="uberduck" class="sin_viñetas"><strong>Uberduck</strong>
-                        <ul>
-                            <li>Qué hace: genera voces habladas o cantadas con personajes y celebridades</li>
-                            <li>Usos: versiones humorísticas, contenido viral.</li>
-                            <li><a class="anchor_red" href="https://uberduck.ai/">Sitio web</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="section_glosario">
-            <h2>Producción y mezcla</h2>
-            <hr>            
-            <div class="glosario_item">
-                <ul>
-                    <li id="endlesss" class="sin_viñetas"><strong>Endlesss</strong>
-                        <ul>
-                            <li>Qué hace: plataforma colaborativa de improvisación musical.</li>
-                            <li>Usos: jam sessions, cocreación</li>
-                            <li><a class="anchor_red" href="https://endlesss.fm/">Sitio web</a></li>
-                        </ul>
-                    </li>
-                    <li id="magenta" class="sin_viñetas"><strong>Magenta Studio (Google)</strong>
-                        <ul>
-                            <li>Qué hace: plugins para Ableton Live que generan melodías y grooves</li>
-                            <li>Usos: compositores electrónicos, productores</li>
-                            <li><a class="anchor_red" href="https://magenta.tensorflow.org/studio">Sitio web</a></li>
-                        </ul>
-                    </li>
-                    <li id="landr" class="sin_viñetas"><strong>LANDR</strong>
-                        <ul>
-                            <li>Qué hace: masterización automática en línea</li>
-                            <li>Usos: músicos independientes, sellos pequeños</li>
-                            <li><a class="anchor_red" href="https://www.landr.com/">Sitio web</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="section_glosario">
-            <h2>Manipulación de audio</h2>
-            <hr>            
-            <div class="glosario_item">
-                <ul>
-                    <li id="stemroller" class="sin_viñetas"><strong>StemRoller</strong>
-                        <ul>
-                            <li>Qué hace: separa pistas de audio (voz, batería, bajo, etc.)</li>
-                            <li>Usos: pinchadiscos, productores de remezclas.</li>
-                            <li><a class="anchor_red" href="https://stemroller.com/">Sitio web</a></li>
-                        </ul>
-                    </li>
-                    <li id="lalaai" class="sin_viñetas"><strong>LALAL.AI</strong>
-                        <ul>
-                            <li>Qué hace: extracción de voces e instrumentos con alta precisión</li>
-                            <li>Usos: versiones, karaoke, mezclas</li>
-                            <li><a class="anchor_red" href="https://www.lalal.ai/">Sitio web</a></li>
-                        </ul>
-                    </li>
-                    <li id="audioshake" class="sin_viñetas"><strong>Audioshake</strong>
-                        <ul>
-                            <li>Qué hace: herramienta profesional de separación de pistas</li>
-                            <li>Usos: industria musical, remezcla avanzada</li>
-                            <li><a class="anchor_red" href="https://www.audioshake.ai/">Sitio web</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="section_glosario">
-            <h2>Letras y creatividad textual</h2>
-            <hr>            
-            <div class="glosario_item">
-                <ul>
-                    <li id="these-lyrics-do-not-exist" class="sin_viñetas"><strong>These Lyrics Do Not Exist</strong>
-                        <ul>
-                            <li>Qué hace: genera letras de canciones en diversos géneros</li>
-                            <li>Usos: inspiración rápida para compositores</li>
-                            <li><a class="anchor_red" href="https://theselyricsdonotexist.com/">Sitio web</a></li>
-                        </ul>
-                    </li>
-                    <li id="lalalai" class="sin_viñetas"><strong>LALAL.AI</strong>
-                        <ul>
-                            <li>Qué hace: crea letras originales utilizando modelos simples.</li>
-                            <li>Usos: juegos creativos, maquetas experimentales.</li>
-                            <li><a class="anchor_red" href="https://boredhumans.com/lyrics">Sitio web</a></li>
-                        </ul>
-                    </li>
-                    <li id="audioshake" class="sin_viñetas"><strong>Audioshake</strong>
-                        <ul>
-                            <li>Qué hace: escribe letras adaptadas a estilos concretos</li>
-                            <li>Usos: composición, brainstorming creativo.</li>
-                            <li><a class="anchor_red" href="https://openai.com/chatgpt">Sitio web</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
+      <header class="header-articulo">
+        <h1>Glosario de inteligencias artificiales musicales</h1>
+      </header>
+      <section class="section_glosario">
+        <h2>Generación musical</h2>
+        <hr />
+        <div class="glosario_item">
+          <ul>
+            <li id="aiva" class="sin_viñetas">
+              <strong>AIVA</strong>
+              <ul>
+                <li>
+                  Qué hace: composición automática de música orquestal y bandas
+                  sonoras
+                </li>
+                <li>Usos: cine, videojuegos, anuncios</li>
+                <li>
+                  <a class="anchor_red" href="https://www.aiva.ai/"
+                    >Sitio web</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li id="soundraw" class="sin_viñetas">
+              <strong>Soundraw</strong>
+              <ul>
+                <li>
+                  Qué hace: plataforma para crear música de fondo a medida
+                </li>
+                <li>Usos: youtubers, podcasteros, creadores de contenido</li>
+                <li>
+                  <a class="anchor_red" href="https://www.soundraw.io/"
+                    >Sitio web</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li id="mubert" class="sin_viñetas">
+              <strong>Mubert</strong>
+              <ul>
+                <li>Qué hace: streaming infinito de música generada.</li>
+                <li>Usos: ambientes sonoros, productividad, pinchadiscos</li>
+                <li>
+                  <a class="anchor_red" href="https://www.mubert.com/"
+                    >Sitio web</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section_glosario">
+        <h2>Voces y canto</h2>
+        <hr />
+        <div class="glosario_item">
+          <ul>
+            <li id="synthesizerv" class="sin_viñetas">
+              <strong>Synthesizer V</strong>
+              <ul>
+                <li>
+                  Qué hace: motor de voces sintéticas ultrarealistas para canto
+                </li>
+                <li>Usos: producción musical profesional</li>
+                <li>
+                  <a
+                    class="anchor_red"
+                    href="https://dreamtonics.com/synthesizerv"
+                    >Sitio web</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li id="voicifyai" class="sin_viñetas">
+              <strong>Voicify AI</strong>
+              <ul>
+                <li>
+                  Qué hace: crea versiones de canciones utilizando voces
+                  clonadas.
+                </li>
+                <li>Usos: entretenimiento, mezclas virales.</li>
+                <li>
+                  <a class="anchor_red" href="https://www.jammable.com/"
+                    >Sitio web</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li id="uberduck" class="sin_viñetas">
+              <strong>Uberduck</strong>
+              <ul>
+                <li>
+                  Qué hace: genera voces habladas o cantadas con personajes y
+                  celebridades
+                </li>
+                <li>Usos: versiones humorísticas, contenido viral.</li>
+                <li>
+                  <a class="anchor_red" href="https://uberduck.ai/"
+                    >Sitio web</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section_glosario">
+        <h2>Producción y mezcla</h2>
+        <hr />
+        <div class="glosario_item">
+          <ul>
+            <li id="endlesss" class="sin_viñetas">
+              <strong>Endlesss</strong>
+              <ul>
+                <li>
+                  Qué hace: plataforma colaborativa de improvisación musical.
+                </li>
+                <li>Usos: jam sessions, cocreación</li>
+                <li>
+                  <a class="anchor_red" href="https://endlesss.fm/"
+                    >Sitio web</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li id="magenta" class="sin_viñetas">
+              <strong>Magenta Studio (Google)</strong>
+              <ul>
+                <li>
+                  Qué hace: plugins para Ableton Live que generan melodías y
+                  grooves
+                </li>
+                <li>Usos: compositores electrónicos, productores</li>
+                <li>
+                  <a
+                    class="anchor_red"
+                    href="https://magenta.tensorflow.org/studio"
+                    >Sitio web</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li id="landr" class="sin_viñetas">
+              <strong>LANDR</strong>
+              <ul>
+                <li>Qué hace: masterización automática en línea</li>
+                <li>Usos: músicos independientes, sellos pequeños</li>
+                <li>
+                  <a class="anchor_red" href="https://www.landr.com/"
+                    >Sitio web</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section_glosario">
+        <h2>Manipulación de audio</h2>
+        <hr />
+        <div class="glosario_item">
+          <ul>
+            <li id="stemroller" class="sin_viñetas">
+              <strong>StemRoller</strong>
+              <ul>
+                <li>
+                  Qué hace: separa pistas de audio (voz, batería, bajo, etc.)
+                </li>
+                <li>Usos: pinchadiscos, productores de remezclas.</li>
+                <li>
+                  <a class="anchor_red" href="https://stemroller.com/"
+                    >Sitio web</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li id="lalaai" class="sin_viñetas">
+              <strong>LALAL.AI</strong>
+              <ul>
+                <li>
+                  Qué hace: extracción de voces e instrumentos con alta
+                  precisión
+                </li>
+                <li>Usos: versiones, karaoke, mezclas</li>
+                <li>
+                  <a class="anchor_red" href="https://www.lalal.ai/"
+                    >Sitio web</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li id="audioshake" class="sin_viñetas">
+              <strong>Audioshake</strong>
+              <ul>
+                <li>
+                  Qué hace: herramienta profesional de separación de pistas
+                </li>
+                <li>Usos: industria musical, remezcla avanzada</li>
+                <li>
+                  <a class="anchor_red" href="https://www.audioshake.ai/"
+                    >Sitio web</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section_glosario">
+        <h2>Letras y creatividad textual</h2>
+        <hr />
+        <div class="glosario_item">
+          <ul>
+            <li id="these-lyrics-do-not-exist" class="sin_viñetas">
+              <strong>These Lyrics Do Not Exist</strong>
+              <ul>
+                <li>
+                  Qué hace: genera letras de canciones en diversos géneros
+                </li>
+                <li>Usos: inspiración rápida para compositores</li>
+                <li>
+                  <a
+                    class="anchor_red"
+                    href="https://theselyricsdonotexist.com/"
+                    >Sitio web</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li id="lalalai" class="sin_viñetas">
+              <strong>LALAL.AI</strong>
+              <ul>
+                <li>
+                  Qué hace: crea letras originales utilizando modelos simples.
+                </li>
+                <li>Usos: juegos creativos, maquetas experimentales.</li>
+                <li>
+                  <a class="anchor_red" href="https://boredhumans.com/lyrics"
+                    >Sitio web</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li id="audioshake" class="sin_viñetas">
+              <strong>Audioshake</strong>
+              <ul>
+                <li>Qué hace: escribe letras adaptadas a estilos concretos</li>
+                <li>Usos: composición, brainstorming creativo.</li>
+                <li>
+                  <a class="anchor_red" href="https://openai.com/chatgpt"
+                    >Sitio web</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <footer>
-        <div id="div-footer">
-            <p><small>
-                    Carlo Fidel Taboada Petersson
-                </small></p>
-            <p><small>
-                    UOC, 2025 | Para la asignatura HTML y CSS
-                </small></p>
-        </div>
+      <div id="div-footer">
+        <p><small> Carlo Fidel Taboada Petersson </small></p>
+        <p><small> UOC, 2025 | Para la asignatura HTML y CSS </small></p>
+      </div>
     </footer>
-    <script src="./scripts/gsap.min.js"></script>
-    <script type="module" src="./scripts/animation.js"></script>
-
-</body>
-
+    <script src="./js/gsap.min.js"></script>
+    <script type="module" src="./js/animation.js"></script>
+  </body>
 </html>
