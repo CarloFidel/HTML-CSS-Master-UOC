@@ -213,6 +213,7 @@ hr {
 
 ul.viñetas_circulares {
   font-size: 0.95rem;
+  margin-left: 15px;
 }
 
 .lista-padre ul {
@@ -263,7 +264,7 @@ footer {
   background-color: var(--title-color);
   width: 100%;
   color: white;
-  padding: 20px;
+  padding: 10px;
 }
 
 footer div {
