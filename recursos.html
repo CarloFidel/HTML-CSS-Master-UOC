@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Carlo Fidel Taboada Petersson" />
-    <meta name="description" content="A simple web page" />
-    <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carlo Fidel Taboada Petersson">
+    <meta
+      name="description"
+      content="Recursos sobre inteligencias artificiales musicales: herramientas para composición y experimentación sonora.">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>BIT Recursos</title>
   </head>
 
@@ -18,7 +20,7 @@
           alt="inicio-logo"
           id="bit-logo"
           class="image--logo"
-        />
+        >
         <ul class="sin_viñetas">
           <li>
             <a class="no_decoration" href="./index.html" title="Ir a Artículo"
@@ -44,7 +46,11 @@
         </ul>
       </nav>
     </header>
-    <main class="main-recursos">
+    <main
+      id="main-content"
+      class="main-recursos"
+      aria-label="Contenido principal de recursos"
+    >
       <header class="header-articulo">
         <h1>Inteligencias artificiales musicales</h1>
       </header>
@@ -66,16 +72,23 @@
         artificiales aplicadas a la música, que reúne recursos para la
         composición, el canto, la producción y la experimentación sonora.
       </p>
-      <section class="section-audio">
+      <section class="section-audio" aria-label="audio-intro">
         <div class="audio-container">
-          <audio class="archivo-audio" controls>
-            <source src="./music/intro-musical.mp3" type="audio/mpeg" />
-            <source src="./music/intro-musical.ogg" type="audio/ogg" />
-            <p>Tu navegador no soporta audio HTML5.</p>
+          <audio
+            class="archivo-audio"
+            controls
+            preload="metadata"
+            aria-label="Introducción musical sobre inteligencias artificiales"
+            id="audio-intro">
+            <source src="./music/intro-musical.mp3" type="audio/mpeg">
+            <source src="./music/intro-musical.ogg" type="audio/ogg">
+            <p>Tu navegador no soporta audio HTML5. 
+               <a href="./music/intro-musical.mp3">Descarga el archivo MP3</a>
+            </p>
           </audio>
         </div>
       </section>
-      <section class="lista-padre">
+      <section class="lista-padre" aria-label="lista-recursos">
         <ul class="viñetas_cuadradas">
           <li>
             Generación Musical

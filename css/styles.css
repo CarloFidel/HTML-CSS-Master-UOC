@@ -19,6 +19,7 @@ html {
   font-size: 14px;
 }
 
+
 body {
   background-color: var(--background-color);
   line-height: 2;
@@ -109,14 +110,14 @@ section {
   color: var(--red-color);
 }
 
-.div-subtitle {
+.div-subtitle-header {
   text-align: center;
 }
 
-#div-subtitle {
+.div-subtitle {
   width: 100%;
   text-align: left;
-  padding: 0 20% 0 20%;
+  padding: 0 17% 0 17%;
 }
 
 .div-subtitle p {
@@ -239,7 +240,6 @@ ul.viñetas_circulares {
   list-style-type: square;
 }
 
-/* Glosario */
 .section_glosario {
   & h2 {
     margin-bottom: 0px;
@@ -254,7 +254,8 @@ ul.viñetas_circulares {
 .glosario_item {
   margin: 20px 0px 20px 10%;
 }
-/* footer */
+
+
 footer {
   margin-top: 20px;
   display: flex;

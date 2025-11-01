@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Carlo Fidel Taboada Petersson" />
-    <meta name="description" content="A simple web page" />
-    <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="author" content="Carlo Fidel Taboada Petersson" >
+    <meta
+      name="description"
+      content="Artículo sobre nostalgia y porsiemprismo en la era digital. Análisis de cómo la industria del entretenimiento recicla contenidos."
+    >
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png" >
+    <link rel="stylesheet" href="./css/styles.css" >
     <title>BIT Artículo</title>
   </head>
 
@@ -18,9 +21,9 @@
           alt="inicio-logo"
           id="bit-logo"
           class="image--logo"
-        />
+        >
         <ul class="sin_viñetas">
-          <li>
+          <li tabindex="0">
             <a
               class="current_page no_decoration"
               href="./index.html"
@@ -28,7 +31,7 @@
               ><strong>ARTÍCULO</strong></a
             >
           </li>
-          <li>
+          <li tabindex="1">
             <a
               class="no_decoration"
               href="./recursos.html"
@@ -36,7 +39,7 @@
               ><strong>RECURSOS</strong></a
             >
           </li>
-          <li>
+          <li tabindex="3">
             <a
               class="no_decoration"
               href="./glosario.html"
@@ -47,7 +50,10 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main
+      id="main-content"
+      aria-label="Contenido principal del artículo"
+    >
       <header class="header-articulo">
         <h1>Un mundo sin nostalgia</h1>
         <div id="div-author">
@@ -57,6 +63,9 @@
                 class="anchor_red"
                 title="Más sobre José Heitz"
                 href="https://lab.cccb.org/es/un-mundo-sin-nostalgia/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="José Heitz - Más información (se abre en nueva pestaña)"
                 >JOSÉ HEITZ</a
               ></strong
             >
@@ -66,8 +75,8 @@
           </p>
         </div>
       </header>
-      <section id="section-intro">
-        <div class="div-subtitle">
+      <div id="section-intro">
+        <div class="div-subtitle-header">
           <p>
             ¿Qué ocurre cuando el pasado nunca termina de desaparecer, sino que
             se recicla a través de nuevas formas?
@@ -78,7 +87,7 @@
             src="./img/nostalgia.jpg"
             alt="img-nostalgia"
             class="img-nostalgia"
-          />
+          >
         </div>
         <div class="piefoto">
           <small>
@@ -87,15 +96,18 @@
               class="anchor_red"
               title="ir a National Archief"
               href="https://www.nationaalarchief.nl/onderzoeken/fotocollectie/a9e473b4-d0b4-102d-bcf8-003048976d84"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Nationaal Archief - Fuente de la imagen (se abre en nueva pestaña)"
             >
               Nationaal Archief
-              <img src="./img/external-link.svg" alt="icono-external-link" />
+              <img src="./img/external-link.svg" alt="icono-external-link" >
             </a>
             | Dominio público
           </small>
         </div>
-      </section>
-      <section id="section-desarrollo">
+      </div>
+      <section id="section-desarrollo" aria-label="desarrollo-titulo">
         <div class="div-subtitle" id="div-subtitle">
           <p>
             La industria del entretenimiento ha acabado con los finales. Sus
@@ -146,14 +158,12 @@
         </p>
         <div class="video-container">
           <iframe
-            width="560"
-            height="315"
             src="https://www.youtube.com/embed/rq3n2sJ43Hg?si=7UIw3KxgTmnH7GQt"
-            title="YouTube video player"
-            frameborder="0"
+            title="Vídeo: The Carousel (Mad Men) - Don Draper's pitch sobre nostalgia en publicidad"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
+            aria-label="Vídeo de YouTube sobre nostalgia en publicidad de Mad Men"
           >
           </iframe>
         </div>
@@ -205,9 +215,9 @@
       </section>
       <section id="section-elscrollinfinto">
         <h2>El <i>scroll</i> infinito de la cultura</h2>
-        <article class="div-cita-container">
+        <div class="div-cita-container">
           <div class="div-cita">
-            <hr />
+            <hr >
             <div id="div-texto-cita">
               <p>
                 <strong>
@@ -220,7 +230,7 @@
                 </strong>
               </p>
             </div>
-            <hr />
+            <hr >
             <div id="div-author-cita">
               <p>
                 <small
@@ -230,7 +240,7 @@
               </p>
             </div>
           </div>
-        </article>
+        </div>
         <p>
           Esta última idea lleva algún tiempo debatiéndose, al menos desde que
           la web permite un consumo virtualmente ilimitado de obras. Si bien
@@ -382,7 +392,7 @@
             class="img_author"
             src="./img/jose-heinz.jpg"
             alt="foto-jose-heinz"
-          />
+          >
         </div>
         <div id="div-author-text">
           <h2>José Heitz</h2>
@@ -396,7 +406,7 @@
                 href="https://lab.cccb.org/es/un-mundo-sin-nostalgia/"
               >
                 Centro de Cultura Contemporánea de Barcelona
-                <img src="./img/external-link.svg" alt="imagen_autor" /></a
+                <img src="./img/external-link.svg" alt="imagen_autor" ></a
             ></small>
           </p>
         </div>
