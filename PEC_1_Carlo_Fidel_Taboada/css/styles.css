@@ -1,0 +1,279 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --text-color: #2b1604;
+  --background-color: #f2f2f2;
+  --selection-color: #e48e88;
+  --red-color: #da3a35;
+  --title-color: #2e1e0c;
+  --gray-color: rgb(136, 136, 136);
+}
+
+html {
+  font-size: 14px;
+}
+
+
+body {
+  background-color: var(--background-color);
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+a {
+  color: var(--text-color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+h1 {
+  width: 90%;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: 10px 0px 0px 0px;
+}
+
+.main-recursos p {
+  margin-bottom: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 100%;
+  margin: 5px 0px 5px 0px;
+}
+
+#div-author {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.sin_viñetas {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 5px;
+}
+
+#fecha {
+  margin-top: -10px;
+}
+
+.current_page {
+  color: var(--selection-color);
+}
+
+.anchor_red {
+  color: var(--red-color);
+}
+
+.div-subtitle-header {
+  text-align: center;
+}
+
+.div-subtitle {
+  width: 100%;
+  text-align: left;
+  padding: 0 17% 0 17%;
+}
+
+.div-subtitle p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+}
+
+.img-nostalgia {
+  width: 100%;
+  height: auto;
+}
+
+.piefoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+  font-size: 1.15rem;
+}
+
+#piefoto_video{
+  margin-bottom: 10px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--gray-color);
+  width: 100%;
+}
+
+.div-cita-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-cita {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+#div-author-cita {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+}
+
+.img_author {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.section-author {
+  margin-top: 20px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  margin: 10px 0px 10px 0px;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.lista-padre {
+  margin: 0% 0% 0% 20%;
+  font-size: 1.2rem;
+}
+
+ul.viñetas_circulares {
+  font-size: 0.95rem;
+  margin-left: 15px;
+}
+
+.lista-padre ul {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.audio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid var(--gray-color);
+}
+
+.archivo-audio {
+  width: 40%;
+  margin: 20px 0px 20px 0px;
+}
+
+.viñetas_cuadradas {
+  list-style-type: square;
+}
+
+.section_glosario {
+  & h2 {
+    margin-bottom: 20px;
+  }
+
+  & li ul li {
+    margin-left: 40px;
+    list-style-type: disc;
+  }
+}
+
+.glosario_item {
+  margin: 20px 0px 20px 10%;
+}
+
+
+footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--title-color);
+  width: 100%;
+  color: white;
+  padding: 10px;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer div p {
+  color: white;
+}
