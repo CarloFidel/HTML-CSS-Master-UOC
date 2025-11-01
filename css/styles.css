@@ -206,7 +206,6 @@ hr {
   border: 0;
 }
 
-/* Recursos */
 .lista-padre {
   margin: 0% 0% 0% 20%;
   font-size: 1.2rem;
@@ -242,7 +241,7 @@ ul.viñetas_circulares {
 
 .section_glosario {
   & h2 {
-    margin-bottom: 0px;
+    margin-bottom: 20px;
   }
 
   & li ul li {
